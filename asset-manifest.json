@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FinsweetWebflowDesignnn/static/css/main.508dd883.css",
-    "main.js": "/FinsweetWebflowDesignnn/static/js/main.9a231c6b.js",
+    "main.js": "/FinsweetWebflowDesignnn/static/js/main.adbfca8e.js",
     "static/js/787.8a5f59be.chunk.js": "/FinsweetWebflowDesignnn/static/js/787.8a5f59be.chunk.js",
     "static/media/fa-solid-900.svg": "/FinsweetWebflowDesignnn/static/media/fa-solid-900.18df003f90a7f1313b98.svg",
     "static/media/fa-brands-400.svg": "/FinsweetWebflowDesignnn/static/media/fa-brands-400.3c45c98f6f6c1b009c08.svg",
@@ -29,11 +29,11 @@
     "index.html": "/FinsweetWebflowDesignnn/index.html",
     "static/media/Arrow 1.svg": "/FinsweetWebflowDesignnn/static/media/Arrow 1.55f044eef4a323d0c65487fc85f1f1e2.svg",
     "main.508dd883.css.map": "/FinsweetWebflowDesignnn/static/css/main.508dd883.css.map",
-    "main.9a231c6b.js.map": "/FinsweetWebflowDesignnn/static/js/main.9a231c6b.js.map",
+    "main.adbfca8e.js.map": "/FinsweetWebflowDesignnn/static/js/main.adbfca8e.js.map",
     "787.8a5f59be.chunk.js.map": "/FinsweetWebflowDesignnn/static/js/787.8a5f59be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.508dd883.css",
-    "static/js/main.9a231c6b.js"
+    "static/js/main.adbfca8e.js"
   ]
 }
