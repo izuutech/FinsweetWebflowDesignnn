@@ -13,9 +13,9 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    {/* <HashRouter> */}
     <App />
-    </HashRouter>
+    {/* </HashRouter> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
