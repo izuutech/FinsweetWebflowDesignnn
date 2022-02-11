@@ -133,9 +133,13 @@ popup
 
   /* Moble view */
 @media screen and (max-width: 700px) {
+    .NavBar .navbar{
+     padding: 10px;
+    }
     .NavBar .navbarLogo{
       width: 80%;
       margin-left: 10%;
+      font-size: larger;
     }
     .NavBar .actualNav{
         display: none;
@@ -151,7 +155,7 @@ popup
     }
     .NavBar .menuIcon{
       color: white;
-      font-size: 5vw;
+      font-size: larger;
       cursor: pointer;
     }
 }
