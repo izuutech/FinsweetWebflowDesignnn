@@ -11,18 +11,20 @@ import NavBar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-       <BrowserRouter>
+       <Router>
       <TestimonyContextProvider>
       <NavBar/>
-        {/* <Switch> */}
-            <Route exact path="/" component={Home} />
-            {/* </Route> */}
-            <Route path="/price" component={Pricing}/>
-            {/* </Route> */}
-        {/* </Switch> */}
+        <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route path="/price">
+              <Pricing/>
+            </Route>
+        </Switch>
      <Footer/>
      </TestimonyContextProvider>
-     </BrowserRouter>
+     </Router>
     </div>
   );
 }

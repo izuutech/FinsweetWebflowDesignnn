@@ -13,9 +13,9 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
-    {/* </HashRouter> */}
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
