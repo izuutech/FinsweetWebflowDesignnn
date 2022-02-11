@@ -11,11 +11,11 @@ import NavBar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-       <Router basename="/">
+       <Router basename="/FinsweetWebflowDesignnn">
       <TestimonyContextProvider>
       <NavBar/>
         <Switch>
-            <Route exact path="/" basename="/FinsweetWebflowDesignnn">
+            <Route exact path="/">
               <Home/>
             </Route>
             <Route path="/price">

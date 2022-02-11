@@ -9,13 +9,13 @@ import './css/Faq.css';
 import './font-awesome/fontawesome-free-5.13.0-web/css/all.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { HashRouter} from 'react-router-dom/cjs/react-router-dom.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
