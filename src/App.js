@@ -15,10 +15,10 @@ function App() {
       <TestimonyContextProvider>
       <NavBar/>
         <Switch>
-            <Route exact path="/FinsweetWebflowDesignnn">
+            <Route exact path="/">
               <Home/>
             </Route>
-            <Route path="/FinsweetWebflowDesignnn/price">
+            <Route path="/price">
               <Pricing/>
             </Route>
         </Switch>
