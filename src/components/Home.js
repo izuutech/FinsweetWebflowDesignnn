@@ -57,7 +57,7 @@ const Home =()=> {
                //const onScrol=()=>{
                 const timeout=setTimeout(()=>{
                    //apply animation
-                    console.log([animate[0].haveLoad])
+                    // console.log([animate[0].haveLoad])
                     setAnimate([...animate, {haveLoad: !animate[0].haveLoad}])
                    
                 }, 3000)

@@ -40,7 +40,7 @@ const Testimonies=()=> {
             if(count.current < testimonies.length-1){
                 count.current+=1;
                 //console.log(count.current-1);
-                console.log(count.current)
+                // console.log(count.current)
                 setTestimony(count.current);
                 
             }else{
