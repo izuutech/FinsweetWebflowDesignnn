@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './css/Home.css';
+import './css/NavBar.css';
+import './css/Footer.css';
+import './css/Pricing.css';
+import './css/Faq.css';
+import './font-awesome/fontawesome-free-5.13.0-web/css/all.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
